@@ -11,3 +11,8 @@ So, here is the project made for SHRISHTI 2018 in which i used Microseoft KINECT
 
 
 Install Processing Software & Kinect SDK from internet. Connect kinect to your PC. Let it install the driver automatically. Write your code on Processing and Run It!!!
+
+## REQUIREMENTS
+1. Xbox Kinect (Microsoft Product)</br><img src='images/kinect.jpg' width = 200>
+2. Laptop with high graphic quality(at least 4GB graphic card)</br>
+3. Processing software(Open source software)</br><img src='images/processing.png' width = 200>
