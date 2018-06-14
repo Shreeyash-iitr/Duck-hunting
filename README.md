@@ -39,10 +39,14 @@ https://github.com/Shreeyash-iitr/Duck-hunting/blob/master/Duck_hunt_game.pde
 https://www.youtube.com/watch?v=QmVNgdapJJM&list=PLRqwX-V7Uu6ZMlWHdcy8hAGDy6IaoxUKf
 
 ## TEAM MEMBERS
-   > <a href="https://www.facebook.com/shreeyash.geda.1">Shreeyash Geda</a>,</br>
-   > Omkar,</br>
-   > Yashutosh,</br>
-   > Dhruv,</br>
-   > Mohit
+> <a href="https://www.facebook.com/shreeyash.geda.1">Shreeyash Geda</a>,</br>
+> Omkar,</br>
+> Yashutosh,</br>
+> Dhruv,</br>
+> Mohit
+
+##MENTORS
+> <a href="https://github.com/Kakashi08">Shivam maloo</a>,</br>
+> <a href="https://www.facebook.com/bhavya.girigoswami">Bhavya Giri Goswami.</a>
    
    
