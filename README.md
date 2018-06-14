@@ -34,5 +34,15 @@ Kinect uses Infrared sensors, microphone and video camera to draw exact coordina
 
 ## CODE
 https://github.com/Shreeyash-iitr/Duck-hunting/blob/master/Duck_hunt_game.pde
+
+## VIDEO LECTURES
+https://www.youtube.com/watch?v=QmVNgdapJJM&list=PLRqwX-V7Uu6ZMlWHdcy8hAGDy6IaoxUKf
+
+## TEAM MEMBERS
+   > <a href="https://www.facebook.com/shreeyash.geda.1">Shreeyash Geda</a>,</br>
+   > Omkar,</br>
+   > Yashutosh,</br>
+   > Dhruv,</br>
+   > Mohit
    
    
