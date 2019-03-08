@@ -1,4 +1,6 @@
 
+
+
 import processing.sound.*;
 import KinectPV2.KJoint;
 import KinectPV2.*;
@@ -26,7 +28,7 @@ void setup() {
 
  Time = millis();
  
-  font=createFont("C:/Users/Shreeyash/Desktop/Duck_hunt_game/SEASRN__.ttf", 80);
+  font=createFont("C:/Users/Shreeyash/Desktop/shrishti 2018/Duck hunt/ducky/SEASRN__.ttf", 80);
   mover = new Mover();
    imageMode(CENTER);
    
@@ -42,13 +44,13 @@ void setup() {
    again=loadImage("play_again.png");   
    
    //page1
-   page1=loadImage("page1.jpg");
+   page1=loadImage("C:/Users/Shreeyash/Desktop/shrishti 2018/Duck_hunt_game/page1.jpg");
    
    //page 3
-    page3=loadImage("page3.png");
+    page3=loadImage("C:/Users/Shreeyash/Desktop/shrishti 2018/Duck_hunt_game/page3.png");
     
     //page2
-    page2= loadImage("background.png");
+    page2= loadImage("C:/Users/Shreeyash/Desktop/shrishti 2018/Duck_hunt_game/background.png");
     
     
    // start_time();
@@ -78,8 +80,8 @@ void draw()
    
 
       //draw different color for each hand state
-      drawHandRState(joints[KinectPV2.JointType_HandLeft]);
-     // drawHandLState(joints[KinectPV2.JointType_HandRight]);
+      //drawHandRState(joints[KinectPV2.JointType_HandLeft]);
+      drawHandRState(joints[KinectPV2.JointType_HandRight]);
     }
   }
   
@@ -185,15 +187,6 @@ void draw()
             break;}
             
             break;
-          
-          
-          
-           
-            
-            
-   
-   
-   
    
  }
   
@@ -253,21 +246,21 @@ void draw()
   
      
      {
-       file = new SoundFile(this, "C:/Users/Shreeyash/Desktop/Duck hunt/ducky/FINAL_GAME/sound1.mp3");
+       file = new SoundFile(this, "C:/Users/Shreeyash/Desktop/shrishti 2018/Duck_hunt_game/sound1.mp3");
       file.loop();
      once=1;
     }
        
    void click()
    {
-   file = new SoundFile(this, "C:/Users/Shreeyash/Desktop/Duck_hunt_game/click.mp3");
+   file = new SoundFile(this, "C:/Users/Shreeyash/Desktop/shrishti 2018/Duck_hunt_game/click.mp3");
       file.play();
    }
  
    
 void shot_sound()
 {
- file = new SoundFile(this, "C:/Users/Shreeyash/Desktop/Duck_hunt_game/shot_sound.mp3");
+ file = new SoundFile(this, "C:/Users/Shreeyash/Desktop/shrishti 2018/Duck_hunt_game/shot_sound.mp3");
  file.play();
 }
 
@@ -275,7 +268,7 @@ void shot_sound()
     
     void failed()
     {
-       file = new SoundFile(this, "C:/Users/Shreeyash/Desktop/Duck_hunt_game/failed.mp3");
+       file = new SoundFile(this, "C:/Users/Shreeyash/Desktop/shrishti 2018/Duck_hunt_game/failed.mp3");
         file.play();
     }
     
@@ -293,7 +286,7 @@ class Mover {
     // Start in the center
     location = new PVector(width/2,height/2);
     velocity = new PVector(0,0);
-    topspeed =35;
+    topspeed =20;
   }
 
    void check_shot()
@@ -352,7 +345,7 @@ class Mover {
     void sound_killed()
 {   f=1;
 // SPEED=SPEED+2;
-    file = new SoundFile(this, "C:/Users/Shreeyash/Desktop/Duck hunt/ducky/perfect.mp3");
+    file = new SoundFile(this, "C:/Users/Shreeyash/Desktop/shrishti 2018/Duck_hunt_game/perfect.mp3");
     file.play(); 
     score++;
   
